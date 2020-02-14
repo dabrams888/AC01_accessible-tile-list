@@ -1,0 +1,11 @@
+<fieldset class="custom-checkbox-list-wrapper">
+  <legend>{{legend}}</legend>
+
+  <tile type="{{type}}" 
+    label="{{labels[i]}}" 
+    index="{{i}}"
+    groupLabel="{{legend}}"
+    *ngFor="let tile of labels; let i = index">
+  </tile>
+
+</fieldset>
