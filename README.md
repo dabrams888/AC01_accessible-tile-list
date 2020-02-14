@@ -32,13 +32,13 @@ In the demo you'll notice one additional import <code>RemovewhitespacesPipe</cod
 From here, just place the <code>tile</code> element in your template and pass in the details to the component properties.
 
 <pre><code>
-<tile-list type="checkbox" legend="Checkbox List" [labels]="['checkbox 1', 'checkbox 2', 'checkbox 3 with a longer label']"></tile-list>
+&lt;tile-list type="checkbox" legend="Checkbox List" [labels]="['checkbox 1', 'checkbox 2', 'checkbox 3 with a longer label']"&gt;&lt;/tile-list&gt;
 </code></pre>
 
 ### Parameters
 
 | Name    | Value                 | Description                         | 
 | ------- | --------------------- | -----------                         |
-| type    | [checkbox | radio]    |                                     |
+| type    | "checkbox" or "radio" |                                     |
 | legend  | Any string            |                                     |
 | labels  | Array of strings      |                                     |
